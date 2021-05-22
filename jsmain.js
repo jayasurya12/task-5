@@ -84,3 +84,10 @@ let total = sum.reduce((pre, accum)=> {
 return (pre += accum);
 });
 console.log(total);
+
+(function(){
+    for(i=0; i<100; i++){
+        if(i%2!==0)
+        console.log(i);
+    }
+})();
